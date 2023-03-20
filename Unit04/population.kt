@@ -34,10 +34,8 @@ fun main {
                 else
                     print("Thank you!") } }
 
-    var hornymultiplier: Int? (horny/100)
-        if (hornymultiplier == 1) {
-            var hornymultiplier = 2
-        }
+    var hornymultiplier: Int? ((horny/100)+1)
+        
     var tpop1 = spop
 
     do {
