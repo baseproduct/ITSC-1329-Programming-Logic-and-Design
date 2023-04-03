@@ -1,12 +1,13 @@
 fun main {
-	var string: line1 = "   *"
-	var string: line2 = "  ***"
-	var string: line3 = " *****"
-	print line1
-	print line2
-	print line3
-	println("*******")
-	print line3
-	print line2
-	print line1
-			}
+	var line1: String = "   *"
+	var line2: String = "  ***"
+	var line3: String = " *****"
+	var line4: String = "********"
+		println("$line1")
+		println("$line2")
+		println("$line3")
+		println("$line4")
+		println("$line3")
+		println("$line2")
+		println("$line1")
+	}
